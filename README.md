@@ -1,3 +1,7 @@
+<p style="text-align:center">
+![Java](java.png)
+</p>
+
 # Fundamentos de Java con Intellij IDEA 
 
 ---
