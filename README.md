@@ -1,5 +1,5 @@
-<p style="text-align:center">
-
+<p align="center">
+ 
 ![Java](java.png)
 
 </p>
