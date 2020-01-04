@@ -5,7 +5,10 @@ public class Estudiante {
 
     public Estudiante(String nombre,String apellido, String cedula){
         this.nombre = "Me llamo "+ nombre;
-        this.nombre = apellido;
-        this.nombre = " con "+ cedula;
+        this.apellido = apellido;
+        this.cedula = cedula;
+    }
+    public String getInformacion (){
+        return nombre + " " +apellido +" y me identifico con cedula # "+cedula;
     }
 }
