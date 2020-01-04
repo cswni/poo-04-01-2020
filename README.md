@@ -1,5 +1,5 @@
 <p style="text-align:center">
-![Java](java.png)
+![Java](https://github.com/ubedaca/poo-04-01-2020/blob/master/java.png)
 </p>
 
 # Fundamentos de Java con Intellij IDEA 
