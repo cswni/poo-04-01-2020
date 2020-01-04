@@ -1,9 +1,12 @@
+import javax.swing.*;
 public class Main {
     public static void main(String[] args){
         Universidad universidad = new Universidad();
         Estudiante estudiante = new Estudiante("Carlos Andres","Perez","123456789A");
-
-        System.out.println(estudiante.getInformacion());
+        // create a jframe
+        JFrame frame = new JFrame("JOptionPane showMessageDialog example");
+        JOptionPane.showMessageDialog(frame, estudiante.getInformacion(),"Hola",JOptionPane.PLAIN_MESSAGE);
+        System.exit(0);
         //System.out.println(universidad.lema);
         //System.out.println(universidad.telefono);
     }
